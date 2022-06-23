@@ -23,7 +23,7 @@ const swiperAllCat = new Swiper('.swiper.swiper--all', {
     },
 
     breakpoints: {
-        375: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 15
         },
@@ -64,7 +64,7 @@ const swiperAppsCat = new Swiper('.swiper.swiper--apps', {
     },
 
     breakpoints: {
-        375: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 15
         },
@@ -105,7 +105,7 @@ const swiperBrandsCat = new Swiper('.swiper.swiper--brands', {
     },
 
     breakpoints: {
-        375: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 15
         },
@@ -146,7 +146,7 @@ const swiperWebCat = new Swiper('.swiper.swiper--web', {
     },
 
     breakpoints: {
-        375: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 15
         },
@@ -187,7 +187,7 @@ const swiperFeedback = new Swiper('.swiper.swiper--feedback', {
     },
 
     breakpoints: {
-        375: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 15,
             centeredSlides: true
