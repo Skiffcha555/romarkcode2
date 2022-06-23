@@ -1,0 +1,79 @@
+.section-portfolio {
+    padding: 44px 0;
+
+    @media (max-width: 1199px) {
+        padding: 36px 0;
+        padding-bottom: 25px;
+    }
+
+    .container {
+        max-width: 100%;
+
+        @media (max-width: 1199px) {
+            max-width: 1140px;
+        }
+
+        @media (max-width: 575px) {
+            max-width: 95%;
+        }
+    }
+
+    .swiper {
+        &--all,
+        &--apps,
+        &--brands,
+        &--web {
+            padding: 20px 0;
+            padding-bottom: 0;
+        }
+    }
+
+    .swiper-slide {
+        width: 40%;
+        height: auto;
+        border-radius: 40px;
+        transition: 0.3s;
+
+        &:hover {
+            transform: translateY(-10px);
+            transition: 0.3s;
+        }
+
+        // --borderWidth: 3px;
+
+        // &::after {
+        //     transition: 0.3s;
+        // }
+
+        // &:hover {
+        //     &::after {
+        //         content: '';
+        //         position: absolute;
+        //         top: calc(-1 * var(--borderWidth));
+        //         left: calc(-1 * var(--borderWidth));
+        //         height: calc(100% + var(--borderWidth) * 2);
+        //         width: calc(100% + var(--borderWidth) * 2);
+        //         background: linear-gradient(to right, #2D70E6 20%, #0ECD9F 40%, #0ECD9F 60%, #2D70E6 80%);
+        //         border-radius: 40px;
+        //         z-index: -1;
+        //         animation: animatedgradient 3s ease alternate infinite;
+        //         background-size: 300% 300%;
+        //         transition: 0.3s;
+        //     }
+        // }
+
+        // @keyframes animatedgradient {
+        //     0% {
+        //         background-position: 0% 50%;
+        //     }
+
+        //     50% {
+        //         background-position: 100% 50%;
+        //     }
+
+        //     100% {
+        //         background-position: 0% 50%;
+        //     }
+        // }
+    }
+}
