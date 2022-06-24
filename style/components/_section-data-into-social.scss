@@ -1,0 +1,124 @@
+.section-data-into-social {
+    padding: 84px 0;
+    background: #F7F8FA;
+
+    @media (max-width: 1399px) {
+        padding: 70px 0;
+    }
+
+    @media (max-width: 1199px) {
+        padding: 50px 0;
+    }
+
+    @media (max-width: 768px) {
+        padding: 30px 0;
+    }
+
+    .data-into-social-imgs {
+        width: 73%;
+        display: flex;
+        justify-content: space-between;
+        max-height: 33px;
+
+        img {
+            max-width: 120px;
+        }
+    }
+
+    .data-into-social-content {
+        display: flex;
+        gap: 48px;
+
+        @media (max-width: 1199px) {
+            gap: 30px;
+        }
+
+        @media (max-width: 991px) {
+            gap: 25px;
+            flex-direction: column-reverse;
+        }
+
+        @media (max-width: 768px) {
+            gap: 15px;
+        }
+
+        .section-title {
+            text-align: start;
+            margin-bottom: 0;
+
+            @media (max-width: 991px) {
+                text-align: center;
+            }
+        }
+
+        .data-into-social-descr,
+        .data-into-social-img {
+            width: calc(50% - 24px);
+
+            @media (max-width: 991px) {
+                width: 100%;
+            }
+        }
+
+        .data-into-social-img {
+            @media (max-width: 991px) {
+                display: flex;
+                justify-content: center;
+            }
+
+            @media (max-width: 768px) {
+                height: 280px;
+            }
+
+            @media (max-width: 575px) {
+                height: 240px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 40px;
+
+                @media (max-width: 991px) {
+                    width: auto;
+                }
+
+                @media (max-width: 575px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        .data-into-social-descr {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            @media (max-width: 1199px) {
+                gap: 15px;
+            }
+
+            @media (max-width: 768px) {
+                gap: 10px;
+            }
+        }
+
+        .data-into-social-text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 178%;
+            color: #000000;
+
+            @media (max-width: 991px) {
+                text-align: center;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 14px;
+                line-height: 150%;
+            }
+        }
+    }
+}

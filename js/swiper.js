@@ -225,6 +225,94 @@ const swiperChooseIndustry = new Swiper('.swiper.swiper--choose-industry', {
     }
 });
 
+const swiperAllCatSecond = new Swiper('.swiper.swiper--all-second', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    spaceBetween: 0,
+    slidesPerView: 1,
+    centeredSlides: true,
+    grabCursor: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
+
+const swiperAppsCatSecond = new Swiper('.swiper.swiper--apps-second', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    spaceBetween: 0,
+    slidesPerView: 1,
+    centeredSlides: true,
+    grabCursor: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
+
+const swiperBrandsCatSecond = new Swiper('.swiper.swiper--brands-second', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    spaceBetween: 0,
+    slidesPerView: 1,
+    centeredSlides: true,
+    grabCursor: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
+
+const swiperWebCatSecond = new Swiper('.swiper.swiper--web-second', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    spaceBetween: 0,
+    slidesPerView: 1,
+    centeredSlides: true,
+    grabCursor: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
+
 /* <div class="counts">
     <strong class="web current-slide">current-slide</strong>
     /

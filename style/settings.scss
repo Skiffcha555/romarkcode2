@@ -21,6 +21,10 @@ body {
 main {
     padding-top: 100px;
 
+    @media (max-width: 1199px) {
+        padding-top: 82px;
+    }
+
     @media (max-width: 768px) {
         padding-top: 88px;
     }
@@ -31,6 +35,12 @@ main {
 
     @media (max-width: 575px) {
         max-width: 95%;
+    }
+
+    &--full-size {
+        @media (max-width: 575px) {
+            max-width: 100%;
+        }
     }
 }
 
@@ -55,6 +65,33 @@ main {
 
     @media (max-width: 425px) {
         margin-bottom: 15px;
+    }
+}
+
+.section-subtitle {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 178%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    @media (max-width: 575px) {
+        margin-bottom: 10px;
     }
 }
 
