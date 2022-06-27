@@ -74,12 +74,6 @@
     transform: translateY(-13px) rotate(90deg);
 }
 
-@supports not (backdrop-filter: blur) {
-    .burger-menu::after {
-        background: rgba(255, 255, 255, 1);
-    }
-}
-
 .burger-menu {
     padding-top: 88px;
     position: fixed;
@@ -152,5 +146,11 @@
                 background-position-x: left;
             }
         }
+    }
+}
+
+@-moz-document url-prefix() {
+    .burger-menu::after {
+        background: rgba(255, 255, 255, 1);
     }
 }

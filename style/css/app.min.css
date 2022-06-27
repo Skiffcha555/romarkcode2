@@ -194,11 +194,6 @@ header .menu-item a:hover {
   transform: translateY(-13px) rotate(90deg);
 }
 
-@supports not (backdrop-filter: blur) {
-  .burger-menu::after {
-    background: rgb(255, 255, 255);
-  }
-}
 .burger-menu {
   padding-top: 88px;
   position: fixed;
@@ -264,6 +259,11 @@ header .menu-item a:hover {
   background-position-x: left;
 }
 
+@-moz-document url-prefix() {
+  .burger-menu::after {
+    background: rgb(255, 255, 255);
+  }
+}
 .section-promo {
   padding: 96px 0;
 }
