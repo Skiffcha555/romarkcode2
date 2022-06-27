@@ -74,6 +74,12 @@
     transform: translateY(-13px) rotate(90deg);
 }
 
+@supports not (backdrop-filter: blur) {
+    .burger-menu::after {
+        background: rgba(255, 255, 255, 1);
+    }
+}
+
 .burger-menu {
     padding-top: 88px;
     position: fixed;
@@ -95,10 +101,6 @@
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(8px);
         filter: 10000000px;
-
-        @supports not (backdrop-filter: blur(8px)) {
-            background: rgba(255, 255, 255, 1);
-        }
     }
 
     &--active {
