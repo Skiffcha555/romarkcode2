@@ -213,6 +213,11 @@ header .menu-item a:hover {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+@supports not (backdrop-filter: blur(8px)) {
+  .burger-menu::after {
+    background: rgb(255, 255, 255);
+  }
+}
 .burger-menu--active {
   transform: translateX(0vw);
 }
