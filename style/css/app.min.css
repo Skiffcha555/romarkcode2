@@ -212,6 +212,7 @@ header .menu-item a:hover {
   height: 100%;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  filter: 10000000px;
 }
 @supports not (backdrop-filter: blur(8px)) {
   .burger-menu::after {

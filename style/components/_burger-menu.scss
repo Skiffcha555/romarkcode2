@@ -94,6 +94,7 @@
         height: 100%;
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(8px);
+        filter: 10000000px;
 
         @supports not (backdrop-filter: blur(8px)) {
             background: rgba(255, 255, 255, 1);
