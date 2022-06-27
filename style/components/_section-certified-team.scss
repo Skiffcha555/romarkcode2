@@ -1,0 +1,143 @@
+.section-certified-team {
+    padding: 80px 0;
+    background: #F7F8FA;
+
+    @media (max-width: 1399px) {
+        padding: 70px 0;
+    }
+
+    @media (max-width: 1199px) {
+        padding: 50px 0;
+    }
+
+    @media (max-width: 768px) {
+        padding: 30px 0;
+    }
+
+    .container {
+        background-color: #fff;
+        border-radius: 40px;
+
+        @media (max-width: 991px) {
+            background-color: transparent;
+        }
+
+        @media (max-width: 768px) {
+            background-color: #fff;
+        }
+        
+        .certified-team-wrapper {
+            padding: 140px 148px;
+            border-radius: 40px;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 50%;
+                // left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                // top: 0%;
+                height: 100%;
+                width: 100%;
+                left: 50%;
+                // transform: translateX(-50%);
+
+                @media (max-width: 1199px) {
+                    width: 95%;
+                }
+
+                @media (max-width: 991px) {
+                    object-fit: cover;
+                    width: auto;
+                }
+
+                @media (max-width: 840px) {
+                    object-fit: unset;
+                    width: 95%;
+                }
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                    display: none;
+                }
+            }
+            // background-image: url(/images/frame.svg);
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // background-position: center;
+            // max-height: 645px;
+            // min-height: 645px;
+
+            @media (max-width: 1199px) {
+                // max-height: 520px;
+                // min-height: 520px;
+            }
+
+            @media (max-width: 991px) {
+                padding: 110px 58px;
+                // max-height: 405px;
+                // min-height: 405px;
+            }
+
+            @media (max-width: 768px) {
+                padding: 20px;
+                // max-height: 405px;
+                // min-height: 405px;
+            }
+        }
+
+        .section-subtitle {
+            margin-bottom: 0;
+        }
+
+        .certified-team-lists {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 30px;
+
+            @media (max-width: 991px) {
+                padding-top: 15px;
+            }
+
+            @media (max-width: 768px) {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .certified-team-list {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                &__item {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 178%;
+                    display: flex;
+                    align-items: center;
+                    color: #16252D;
+                    margin-left: 1em;
+
+                    @media (max-width: 991px) {
+                        font-size: 14px;
+                        line-height: 150%;
+                    }
+
+                    &::before {
+                        content: "\2022";
+                        color: #0ECD9F;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+                }
+            }
+        }
+
+    }
+}

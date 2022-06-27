@@ -136,6 +136,14 @@
             margin-top: 15px;
         }
 
+        &--shopify {
+            width: 270px;
+
+            @media (max-width: 991px) {
+                width: 220px;
+            }
+        }
+
         &::after {
             content: '';
             display: block;

@@ -1,6 +1,10 @@
 .section-portfolio {
     padding: 44px 0;
 
+    &--grey {
+        background: #F7F8FA;
+    }
+
     @media (max-width: 1199px) {
         padding: 36px 0;
         padding-bottom: 25px;
