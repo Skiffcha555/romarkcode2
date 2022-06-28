@@ -81,7 +81,7 @@ header {
         }
     }
 
-    nav {
+    .header-nav {
         display: flex;
         align-items: center;
 
@@ -112,7 +112,8 @@ header {
             color: #000;
 
             text-decoration: none;
-            background-image: linear-gradient(transparent 0%, transparent 90%, #2D70E6 50%, #0ECD9F 100%,);
+            // background-image: linear-gradient(transparent 0%, transparent 90%, #2D70E6 50%, #0ECD9F 100%,);
+            background-image: linear-gradient(transparent 0%, transparent 50%, transparent 90%, #2D70E6 50%, #B5ADF6 75%, #0ECD9F 100%, );
             background-size: 0% 100%;
             background-repeat: no-repeat;
             background-position-x: right;

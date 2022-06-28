@@ -77,12 +77,12 @@ header .logo:hover .logo-text {
     background-position: 200% center;
   }
 }
-header nav {
+header .header-nav {
   display: flex;
   align-items: center;
 }
 @media (max-width: 768px) {
-  header nav {
+  header .header-nav {
     display: none;
   }
 }
@@ -107,7 +107,7 @@ header .menu-item a {
   line-height: 130%;
   color: #000;
   text-decoration: none;
-  background-image: linear-gradient(transparent 0%, transparent 90%, #2D70E6 50%, #0ECD9F 100%);
+  background-image: linear-gradient(transparent 0%, transparent 50%, transparent 90%, #2D70E6 50%, #B5ADF6 75%, #0ECD9F 100%);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -168,7 +168,7 @@ header .menu-item a:hover {
   width: 50px;
   height: 5px;
   background: rgb(14, 205, 159);
-  background: linear-gradient(90deg, rgb(14, 205, 159) 0%, rgba(45, 112, 230, 0.4766281513) 100%);
+  background: linear-gradient(90deg, rgb(14, 205, 159) 0%, #b5adf6 50%, rgba(45, 112, 230, 0.4766281513) 100%);
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -195,7 +195,6 @@ header .menu-item a:hover {
 }
 
 .burger-menu {
-  padding-top: 88px;
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -232,6 +231,7 @@ header .menu-item a:hover {
 }
 .burger-menu .menu-items {
   display: flex;
+  width: 100%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
@@ -248,7 +248,7 @@ header .menu-item a:hover {
   line-height: 130%;
   color: #000;
   text-decoration: none;
-  background-image: linear-gradient(transparent 0%, transparent 90%, #2D70E6 50%, #0ECD9F 100%);
+  background-image: linear-gradient(transparent 0%, transparent 50%, transparent 90%, #2D70E6 50%, #B5ADF6 75%, #0ECD9F 100%);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position-x: right;
