@@ -46,6 +46,11 @@ header .logo {
     gap: 10px;
   }
 }
+header .logo--bold {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #070725;
+}
 header .logo img {
   transition: 0.2s;
 }
@@ -121,6 +126,38 @@ header .menu-item a {
 header .menu-item a:hover {
   background-size: 100% 100%;
   background-position-x: left;
+}
+
+.header-resume {
+  border: none;
+  padding: 0;
+}
+.header-resume .container {
+  border-bottom: 1px solid #000000;
+  padding: 15px 0;
+}
+@media (max-width: 768px) {
+  .header-resume .header-nav {
+    display: flex;
+  }
+}
+.header-resume .logo {
+  gap: 9px;
+}
+.header-resume .menu-items {
+  display: flex;
+  gap: 21px;
+}
+.header-resume .menu-items a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 400;
+  color: #21211F;
+}
+.header-resume .menu-items svg {
+  width: 13px;
+  height: 13px;
 }
 
 .hamburger {
@@ -2726,6 +2763,88 @@ header .menu-item a:hover {
   margin-left: -1em;
 }
 
+.section-resume {
+  padding: 10px 0 50px 0;
+}
+.section-resume .block {
+  padding-top: 9px;
+  border-bottom: 1px solid #000000;
+}
+.section-resume .block h2 {
+  padding-bottom: 9px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #000000;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #0D78FF;
+}
+.section-resume .block h2 svg {
+  width: 10px;
+  height: 10px;
+}
+.section-resume .block .block-body {
+  padding: 13px 0;
+}
+.section-resume .block .block-body .resume-items.has-marker li {
+  list-style: inside;
+  list-style-type: disc;
+}
+.section-resume .block .block-body .resume-items li {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: #21211F;
+}
+.section-resume .main-info-block {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #000000;
+}
+.section-resume .main-info-descr .name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #0D78FF;
+}
+.section-resume .main-info-descr .post {
+  padding-bottom: 0;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.section-resume .main-info-descr .experience,
+.section-resume .main-info-descr .language {
+  padding-top: 7px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #232326;
+}
+.section-resume .skills-block .skills-body {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.section-resume .language-block .language-body .resume-items li {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  color: #21211F;
+}
+
 footer {
   padding: 80px 0;
 }
@@ -3047,6 +3166,10 @@ main {
   main {
     padding-top: 88px;
   }
+}
+
+.resume {
+  padding-top: 72px;
 }
 
 .container {
