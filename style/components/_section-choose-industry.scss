@@ -108,6 +108,7 @@
                 }
 
                 .choose-industry-btn {
+                    max-width: calc(33.33333% - 17.33333px);
                     padding: 19.5px 41px;
                     font-style: normal;
                     font-weight: 400;
@@ -115,6 +116,7 @@
                     line-height: 178%;
 
                     @media (max-width: 1199px) {
+                        max-width: calc(33.33333% - 12px);
                         padding: 17.5px 22px;
                         font-size: 14px;
                         line-height: 150%;

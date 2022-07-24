@@ -1,0 +1,109 @@
+.section-resume {
+    padding: 10px 0 50px 0; 
+
+    .block {
+        padding-top: 9px;
+        border-bottom: 1px solid #000000;
+
+        h2 {
+            padding-bottom: 9px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px solid #000000;
+
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #0D78FF;
+
+            svg {
+                width: 10px;
+                height: 10px;
+            }
+        }
+
+        .block-body {
+            padding: 13px 0;
+
+            .resume-items {
+                &.has-marker {
+                    li {
+                        list-style: inside;
+                        list-style-type: disc;
+                    }
+                }
+
+                li {
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 18px;
+                    color: #21211F;
+                }
+            }
+        }
+    }
+
+    .main-info-block {
+        padding-bottom: 10px;
+        display: inline-flex;
+        width: 100%;
+        gap: 20px;
+        border-bottom: 1px solid #000000;
+    }
+
+    .main-info-descr {
+        .name {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            text-transform: uppercase;
+            color: #0D78FF;
+        }
+
+        .post {
+            padding-bottom: 0;
+            border: none;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #000000;
+        }
+
+        .experience,
+        .language {
+            padding-top: 7px;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            color: #232326;
+        }
+    }
+
+    .skills-block {
+        .skills-body {
+            padding: 16px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+    }
+
+    .language-block {
+        .language-body {
+            .resume-items {
+                li {
+                    font-weight: 600;
+                    font-size: 11px;
+                    line-height: 18px;
+                    color: #21211F;
+                }
+            }
+        }
+    }
+}
