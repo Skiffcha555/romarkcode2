@@ -1,5 +1,5 @@
 .section-resume {
-    padding: 10px 0 50px 0;
+    padding: 10px 0 50px 0; 
 
     .block {
         padding-top: 9px;
@@ -47,7 +47,8 @@
 
     .main-info-block {
         padding-bottom: 10px;
-        display: flex;
+        display: inline-flex;
+        width: 100%;
         gap: 20px;
         border-bottom: 1px solid #000000;
     }

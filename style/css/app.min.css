@@ -131,6 +131,7 @@ header .menu-item a:hover {
 .header-resume {
   border: none;
   padding: 0;
+  display: inline-flex;
 }
 .header-resume .container {
   border-bottom: 1px solid #000000;
@@ -145,11 +146,11 @@ header .menu-item a:hover {
   gap: 9px;
 }
 .header-resume .menu-items {
-  display: flex;
+  display: inline-flex;
   gap: 21px;
 }
 .header-resume .menu-items a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 4px;
   font-weight: 400;
@@ -2801,7 +2802,8 @@ header .menu-item a:hover {
 }
 .section-resume .main-info-block {
   padding-bottom: 10px;
-  display: flex;
+  display: inline-flex;
+  width: 100%;
   gap: 20px;
   border-bottom: 1px solid #000000;
 }
